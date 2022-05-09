@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Mid Term Delegates/1.0.0": {
+        "dependencies": {
+          "Delegates": "1.0.0"
+        },
+        "runtime": {
+          "Mid Term Delegates.dll": {}
+        }
+      },
+      "Delegates/1.0.0": {
+        "runtime": {
+          "Delegates.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Mid Term Delegates/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Delegates/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

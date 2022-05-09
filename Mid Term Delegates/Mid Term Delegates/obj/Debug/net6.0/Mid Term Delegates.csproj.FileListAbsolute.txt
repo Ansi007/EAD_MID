@@ -1,0 +1,18 @@
+C:\Users\Anns\Desktop\6th Semester Material\EAD\Mid Term Examination Practice\Mid Term Delegates\Mid Term Delegates\bin\Debug\net6.0\Mid Term Delegates.exe
+C:\Users\Anns\Desktop\6th Semester Material\EAD\Mid Term Examination Practice\Mid Term Delegates\Mid Term Delegates\bin\Debug\net6.0\Mid Term Delegates.deps.json
+C:\Users\Anns\Desktop\6th Semester Material\EAD\Mid Term Examination Practice\Mid Term Delegates\Mid Term Delegates\bin\Debug\net6.0\Mid Term Delegates.runtimeconfig.json
+C:\Users\Anns\Desktop\6th Semester Material\EAD\Mid Term Examination Practice\Mid Term Delegates\Mid Term Delegates\bin\Debug\net6.0\Mid Term Delegates.dll
+C:\Users\Anns\Desktop\6th Semester Material\EAD\Mid Term Examination Practice\Mid Term Delegates\Mid Term Delegates\bin\Debug\net6.0\Mid Term Delegates.pdb
+C:\Users\Anns\Desktop\6th Semester Material\EAD\Mid Term Examination Practice\Mid Term Delegates\Mid Term Delegates\bin\Debug\net6.0\Delegates.dll
+C:\Users\Anns\Desktop\6th Semester Material\EAD\Mid Term Examination Practice\Mid Term Delegates\Mid Term Delegates\bin\Debug\net6.0\Delegates.pdb
+C:\Users\Anns\Desktop\6th Semester Material\EAD\Mid Term Examination Practice\Mid Term Delegates\Mid Term Delegates\obj\Debug\net6.0\Mid Term Delegates.csproj.AssemblyReference.cache
+C:\Users\Anns\Desktop\6th Semester Material\EAD\Mid Term Examination Practice\Mid Term Delegates\Mid Term Delegates\obj\Debug\net6.0\Mid Term Delegates.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Anns\Desktop\6th Semester Material\EAD\Mid Term Examination Practice\Mid Term Delegates\Mid Term Delegates\obj\Debug\net6.0\Mid Term Delegates.AssemblyInfoInputs.cache
+C:\Users\Anns\Desktop\6th Semester Material\EAD\Mid Term Examination Practice\Mid Term Delegates\Mid Term Delegates\obj\Debug\net6.0\Mid Term Delegates.AssemblyInfo.cs
+C:\Users\Anns\Desktop\6th Semester Material\EAD\Mid Term Examination Practice\Mid Term Delegates\Mid Term Delegates\obj\Debug\net6.0\Mid Term Delegates.csproj.CoreCompileInputs.cache
+C:\Users\Anns\Desktop\6th Semester Material\EAD\Mid Term Examination Practice\Mid Term Delegates\Mid Term Delegates\obj\Debug\net6.0\Mid Term Delegates.csproj.CopyComplete
+C:\Users\Anns\Desktop\6th Semester Material\EAD\Mid Term Examination Practice\Mid Term Delegates\Mid Term Delegates\obj\Debug\net6.0\Mid Term Delegates.dll
+C:\Users\Anns\Desktop\6th Semester Material\EAD\Mid Term Examination Practice\Mid Term Delegates\Mid Term Delegates\obj\Debug\net6.0\refint\Mid Term Delegates.dll
+C:\Users\Anns\Desktop\6th Semester Material\EAD\Mid Term Examination Practice\Mid Term Delegates\Mid Term Delegates\obj\Debug\net6.0\Mid Term Delegates.pdb
+C:\Users\Anns\Desktop\6th Semester Material\EAD\Mid Term Examination Practice\Mid Term Delegates\Mid Term Delegates\obj\Debug\net6.0\Mid Term Delegates.genruntimeconfig.cache
+C:\Users\Anns\Desktop\6th Semester Material\EAD\Mid Term Examination Practice\Mid Term Delegates\Mid Term Delegates\obj\Debug\net6.0\ref\Mid Term Delegates.dll

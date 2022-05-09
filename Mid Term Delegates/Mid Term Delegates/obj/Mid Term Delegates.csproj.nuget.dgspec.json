@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\Mid Term Delegates\\Mid Term Delegates\\Mid Term Delegates.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\Mid Term Delegates\\Delegates\\Delegates.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\Mid Term Delegates\\Delegates\\Delegates.csproj",
+        "projectName": "Delegates",
+        "projectPath": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\Mid Term Delegates\\Delegates\\Delegates.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\Mid Term Delegates\\Mid Term Delegates\\Mid Term Delegates.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\Mid Term Delegates\\Mid Term Delegates\\Mid Term Delegates.csproj",
+        "projectName": "Mid Term Delegates",
+        "projectPath": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\Mid Term Delegates\\Mid Term Delegates\\Mid Term Delegates.csproj",
+        "packagesPath": "C:\\Users\\Anns\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\Mid Term Delegates\\Mid Term Delegates\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Anns\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\Mid Term Delegates\\Delegates\\Delegates.csproj": {
+                "projectPath": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\Mid Term Delegates\\Delegates\\Delegates.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
