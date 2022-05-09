@@ -4,6 +4,21 @@
     "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\MidTermN-Tier\\MidTermN-Tier.csproj": {}
   },
   "projects": {
+    "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\MidTermN-TierBO\\MidTermN-TierBO.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\MidTermN-TierBO\\MidTermN-TierBO.csproj",
+        "projectName": "MidTermN-TierBO",
+        "projectPath": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\MidTermN-TierBO\\MidTermN-TierBO.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
     "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\MidTermN-Tier\\MidTermN-Tier.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -27,7 +42,11 @@
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\WeatherPL\\WeatherPL.csproj": {
+                "projectPath": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\WeatherPL\\WeatherPL.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -56,6 +75,69 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\WeatherBLL\\WeatherBLL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\WeatherBLL\\WeatherBLL.csproj",
+        "projectName": "WeatherBLL",
+        "projectPath": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\WeatherBLL\\WeatherBLL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\MidTermN-TierBO\\MidTermN-TierBO.csproj": {
+                "projectPath": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\MidTermN-TierBO\\MidTermN-TierBO.csproj"
+              },
+              "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\WeatherDAL\\WeatherDAL.csproj": {
+                "projectPath": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\WeatherDAL\\WeatherDAL.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\WeatherDAL\\WeatherDAL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\WeatherDAL\\WeatherDAL.csproj",
+        "projectName": "WeatherDAL",
+        "projectPath": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\WeatherDAL\\WeatherDAL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\MidTermN-TierBO\\MidTermN-TierBO.csproj": {
+                "projectPath": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\MidTermN-TierBO\\MidTermN-TierBO.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\WeatherPL\\WeatherPL.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\WeatherPL\\WeatherPL.csproj",
+        "projectName": "WeatherPL",
+        "projectPath": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\WeatherPL\\WeatherPL.csproj",
+        "frameworks": {
+          "net472": {
+            "projectReferences": {
+              "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\MidTermN-TierBO\\MidTermN-TierBO.csproj": {
+                "projectPath": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\MidTermN-TierBO\\MidTermN-TierBO.csproj"
+              },
+              "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\WeatherBLL\\WeatherBLL.csproj": {
+                "projectPath": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\WeatherBLL\\WeatherBLL.csproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net472": {}
       }
     }
   }

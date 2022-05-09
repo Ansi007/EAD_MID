@@ -1,0 +1,77 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "MidTermN-Tier/1.0.0": {
+        "dependencies": {
+          "WeatherPL": "1.0.0"
+        },
+        "runtime": {
+          "MidTermN-Tier.dll": {}
+        }
+      },
+      "MidTermN-TierBO/1.0.0": {
+        "runtime": {
+          "MidTermN-TierBO.dll": {}
+        }
+      },
+      "WeatherBLL/1.0.0": {
+        "dependencies": {
+          "MidTermN-TierBO": "1.0.0",
+          "WeatherDAL": "1.0.0"
+        },
+        "runtime": {
+          "WeatherBLL.dll": {}
+        }
+      },
+      "WeatherDAL/1.0.0": {
+        "dependencies": {
+          "MidTermN-TierBO": "1.0.0"
+        },
+        "runtime": {
+          "WeatherDAL.dll": {}
+        }
+      },
+      "WeatherPL/1.0.0": {
+        "dependencies": {
+          "MidTermN-TierBO": "1.0.0",
+          "WeatherBLL": "1.0.0"
+        },
+        "runtime": {
+          "WeatherPL.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MidTermN-Tier/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MidTermN-TierBO/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WeatherBLL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WeatherDAL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "WeatherPL/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

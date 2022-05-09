@@ -10,7 +10,8 @@ namespace MidTermN_TierBO
     {
         public int Temperature { get; set; }
         public int Precipitation { get; set; }
+        public int Humidity { get; set; }
         public int Wind { get; set; }
-        public string Location { get; set; }
+        public string FeelsLike { get; set; }
     }
 }

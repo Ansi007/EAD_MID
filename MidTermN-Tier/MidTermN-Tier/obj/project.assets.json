@@ -1,11 +1,82 @@
 {
   "version": 3,
   "targets": {
-    "net6.0": {}
+    "net6.0": {
+      "MidTermN-TierBO/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/MidTermN-TierBO.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MidTermN-TierBO.dll": {}
+        }
+      },
+      "WeatherBLL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "MidTermN-TierBO": "1.0.0",
+          "WeatherDAL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WeatherBLL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WeatherBLL.dll": {}
+        }
+      },
+      "WeatherDAL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "MidTermN-TierBO": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WeatherDAL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WeatherDAL.dll": {}
+        }
+      },
+      "WeatherPL/1.0.0": {
+        "type": "project",
+        "dependencies": {
+          "MidTermN-TierBO": "1.0.0",
+          "WeatherBLL": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/WeatherPL.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/WeatherPL.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "MidTermN-TierBO/1.0.0": {
+      "type": "project",
+      "path": "../MidTermN-TierBO/MidTermN-TierBO.csproj",
+      "msbuildProject": "../MidTermN-TierBO/MidTermN-TierBO.csproj"
+    },
+    "WeatherBLL/1.0.0": {
+      "type": "project",
+      "path": "../WeatherBLL/WeatherBLL.csproj",
+      "msbuildProject": "../WeatherBLL/WeatherBLL.csproj"
+    },
+    "WeatherDAL/1.0.0": {
+      "type": "project",
+      "path": "../WeatherDAL/WeatherDAL.csproj",
+      "msbuildProject": "../WeatherDAL/WeatherDAL.csproj"
+    },
+    "WeatherPL/1.0.0": {
+      "type": "project",
+      "path": "../WeatherPL/WeatherPL.csproj",
+      "msbuildProject": "../WeatherPL/WeatherPL.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net6.0": []
+    "net6.0": [
+      "WeatherPL >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Anns\\.nuget\\packages\\": {}
@@ -33,7 +104,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\WeatherPL\\WeatherPL.csproj": {
+              "projectPath": "C:\\Users\\Anns\\Desktop\\6th Semester Material\\EAD\\Mid Term Examination Practice\\MidTermN-Tier\\WeatherPL\\WeatherPL.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
