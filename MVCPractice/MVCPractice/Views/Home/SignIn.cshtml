@@ -1,0 +1,16 @@
+﻿@model MVCPractice.Models.Customer;
+@{
+    ViewData["Title"] = "Sign In";
+}
+
+<div>
+    <form asp-controller = "Home" asp-action = "SignIn" method = "post">
+        <label asp-for = "Username">Username: </label>
+        <input asp-for = "Username"/>
+        <br />
+        <label asp-for = "Password">Password: </label>
+        <input asp-for = "Password"/>
+        <br />
+        <button type = "submit">SUBMIT</button>
+    </form>
+</div>

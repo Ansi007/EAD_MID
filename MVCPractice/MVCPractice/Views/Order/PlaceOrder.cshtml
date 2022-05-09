@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Place Order";
+}
+
+@model MVCPractice.Models.Order;
+
+<div>
+    <form method = "post" asp-controller = "Order" asp-action = "PlaceOrder">
+        <label asp-for = "Name">Name</label>
+        <input asp-for = "Name"/>
+        <br />
+        <label asp-for = "Quantity">Name</label>
+        <input asp-for = "Quantity"/>
+        <br />
+        <button type = "submit">SUBMIT</button>
+    </form>
+</div>
