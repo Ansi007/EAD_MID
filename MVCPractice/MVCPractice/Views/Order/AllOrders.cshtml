@@ -1,5 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Thanks for Order";
+    int c = 1;
 }
 
 <div>
@@ -12,9 +13,11 @@
         @foreach(var i in ViewBag.Orders)
         {
             <tr>
+                <td>@c</td>
                 <td>@i.Name</td>
                 <td>@i.Quantity</td>
             </tr>
+            @c = @c + 1;
         }
     </table>
 </div>

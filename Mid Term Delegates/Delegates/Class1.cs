@@ -86,7 +86,7 @@ namespace Delegates
                 return 3;
             };
 
-            MyDelegate4 d44 = (x) => {
+            MyDelegate4 d44 = x => {
                 Console.WriteLine("MyDeleagate 1 Called");
                 return x;
             };

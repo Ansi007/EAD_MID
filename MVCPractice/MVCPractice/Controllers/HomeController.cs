@@ -24,17 +24,23 @@ namespace MVCPractice.Controllers
         [HttpPost]
         public ViewResult SignUp(Customer c)
         {
-            if(CustomerRepositry.AddCustomer(c)>0)
-            return View("SignIn");
+            if (ModelState.IsValid)
+            {
+                if (CustomerRepositry.AddCustomer(c) > 0)
+                    return View("SignIn");
+            }
             return View();
         }
 
         [HttpPost]
         public ViewResult SignIn(Customer c)
         {
-            if (CustomerRepositry.ValidateCustomer(c))
-                return View("Index");
-            else return View();
+       //     if (ModelState.IsValid)
+         //   {
+                if (CustomerRepositry.ValidateCustomer(c))
+                    return View("Index");
+           // }
+            return View();
         }
 
     }

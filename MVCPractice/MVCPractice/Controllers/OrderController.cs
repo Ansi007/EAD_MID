@@ -5,6 +5,7 @@ namespace MVCPractice.Controllers
 {
     public class OrderController : Controller
     {
+
         [HttpGet]
         public ViewResult PlaceOrder()
         {

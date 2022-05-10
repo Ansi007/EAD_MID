@@ -12,9 +12,9 @@ namespace Events
     {
         event MyEventHanlder myEventHanlder;    //Define
 
-        void onEvent()
+        void onEvent(string msg)
         {
-            myEventHanlder?.Invoke("Event raised");
+            myEventHanlder?.Invoke(msg);
         }
 
         public void EntryPoint()
@@ -22,7 +22,7 @@ namespace Events
             myEventHanlder += delegate (string msg) {
                 Console.WriteLine(msg);
             };
-            onEvent();
+            onEvent("Event Fired");
         }
     }
 
@@ -51,7 +51,12 @@ namespace Events
 
         public void SubscribeRightClick(Publisher p)
         {
-            p.RightClick += (msg) => Console.WriteLine(msg + "by WindowsSubscriber");
+            p.RightClick += RightClick; //Registering
+        }
+
+        public void RightClick(string msg)
+        {
+            Console.WriteLine(msg + "by WindowsSubscriber");    //Performing action
         }
     }
 
